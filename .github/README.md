@@ -1,4 +1,4 @@
-# @process.co/element-types 
+# @process.co/utilities
 [<img src="https://img.shields.io/npm/v/%40process.co%2Futilities" />](https://www.npmjs.com/package/@process.co/utilities) 
 [<img src="https://img.shields.io/github/v/release/process-co/npm-utilities" />](https://github.com/process-co/npm-utilities/releases/latest) 
 [<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/process-co/npm-utilities/main?color=%23AA00AA" />

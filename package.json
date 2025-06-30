@@ -1,0 +1,35 @@
+{
+  "name": "@process.co/utilities",
+  "version": "0.0.0-development",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/process-co/npm-utilities.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org",
+    "scope": "@process.co"
+  },
+  "keywords": [
+    "process",
+    "utilities"
+  ],
+  "author": {
+    "name": "Process.co Team",
+    "email": "developers@process.co"
+  },
+  "devDependencies": {
+    "@repo/config-typescript": "workspace:^",
+    "@types/node": "^22.13.14",
+    "typescript": "^5.7.3"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}

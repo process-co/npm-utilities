@@ -32,8 +32,8 @@ jobs:
         with:
           version: 10
 
-      # - name: Install dependencies
-      #   run: pnpm install --no-frozen-lockfile
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
 
       - name: Get version from tag
         id: get_version

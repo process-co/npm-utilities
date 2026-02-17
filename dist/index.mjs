@@ -1,0 +1,2 @@
+import t from"short-unique-id";var{randomUUID:m,sequentialUUID:U,stamp:e,parseStamp:a,formattedUUID:o}=new t;function i(){return e(16)}export{t as ShortUniqueId,o as formattedUUIDWithTimestamp,e as generateUUIDWithTimestamp,i as newId,a as parseUUIDWithTimestamp,m as randomUUID,U as sequentialUUID};
+//# sourceMappingURL=index.mjs.map

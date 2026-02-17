@@ -4,7 +4,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "tsc_build": "tsc",
+    "build": "tsup src/index.ts --dts-resolve --format cjs,esm --out-dir dist --clean --minify --sourcemap"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,8 @@
   },
   "license": "ISC",
   "dependencies": {
+    "short-unique-id": "^5.3.2",
+    "tsup": "^8.5.1",
     "uuid": "^11.1.0"
   }
 }

@@ -1,8 +1,2 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.newId = newId;
-const uuid_1 = require("uuid");
-function newId() {
-    return (0, uuid_1.v4)();
-}
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9zcmMvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQSxzQkFFQztBQUpELCtCQUEwQjtBQUUxQixTQUFnQixLQUFLO0lBQ25CLE9BQU8sSUFBQSxTQUFFLEdBQUUsQ0FBQztBQUNkLENBQUMifQ==
+"use strict";var p=Object.create;var U=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var I=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,D=Object.prototype.hasOwnProperty;var f=(t,e)=>{for(var r in e)U(t,r,{get:e[r],enumerable:!0})},i=(t,e,r,o)=>{if(e&&typeof e=="object"||typeof e=="function")for(let m of I(e))!D.call(t,m)&&m!==r&&U(t,m,{get:()=>e[m],enumerable:!(o=s(e,m))||o.enumerable});return t};var h=(t,e,r)=>(r=t!=null?p(d(t)):{},i(e||!t||!t.__esModule?U(r,"default",{value:t,enumerable:!0}):r,t)),u=t=>i(U({},"__esModule",{value:!0}),t);var w={};f(w,{ShortUniqueId:()=>a.default,formattedUUIDWithTimestamp:()=>W,generateUUIDWithTimestamp:()=>n,newId:()=>c,parseUUIDWithTimestamp:()=>T,randomUUID:()=>q,sequentialUUID:()=>S});module.exports=u(w);var a=h(require("short-unique-id")),{randomUUID:q,sequentialUUID:S,stamp:n,parseStamp:T,formattedUUID:W}=new a.default;function c(){return n(16)}0&&(module.exports={ShortUniqueId,formattedUUIDWithTimestamp,generateUUIDWithTimestamp,newId,parseUUIDWithTimestamp,randomUUID,sequentialUUID});
+//# sourceMappingURL=index.js.map
